@@ -1,14 +1,10 @@
-import './App.css'
-import Chatbot from './Chatbot'
+import React from 'react';
+import Chatbot from './pages/Chatbot';
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1 className="text-2xl font-bold">Chatbot</h1>
-      <Chatbot />
-    </div>
-  )
-}
+    <Chatbot />
+  );
+};
 
-export default App
+export default App;
